@@ -1,6 +1,6 @@
 <template>
-  <div class="app">
-    <h1 class="bg-blue-500">Welcome to My Vue App</h1>
+  <div class="ms-[100px]">
+    <h1 class="">Welcome to My Vue App</h1>
     <p>Start building your component here!</p>
     <HelloWorld />
   </div>
@@ -9,11 +9,3 @@
 <script setup>
  import HelloWorld from './components/HelloWorld.vue';
 </script>
-
-<style scoped>
-  .app {
-    text-align: center;
-    margin-top: 40px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-</style>

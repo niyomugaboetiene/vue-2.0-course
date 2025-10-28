@@ -2,11 +2,12 @@
   <div class="app">
     <h1>Welcome to My Vue App</h1>
     <p>Start building your component here!</p>
+    <HelloWorld />
   </div>
 </template>
 
 <script setup>
-// 
+ import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <style scoped>

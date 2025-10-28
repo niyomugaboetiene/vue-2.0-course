@@ -12,6 +12,8 @@
      <!-- works for inputs, selects, textareas, checkboxes -->
       <input v-model="name" placeholder="Type your name here ..." />
       <p>Hello {{ name }}</p>
+
+      <!-- v-if/v-else return the element if only the condition is true -->
   </template>
 
 <script setup>

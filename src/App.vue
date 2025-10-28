@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>Welcome to My Vue App</h1>
+    <h1 class="bg-blue-500">Welcome to My Vue App</h1>
     <p>Start building your component here!</p>
     <HelloWorld />
   </div>

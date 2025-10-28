@@ -8,6 +8,6 @@
  <script setup>
      import { ref } from 'vue';
      
-     const message = ref("Hello vue 3!");
+     const message = ref("Hello vue 3!"); // ~ this one act as state in react js
 
 </script>

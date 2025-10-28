@@ -9,6 +9,7 @@
     </div>
 
     <!-- v-model -> is used to connect input to  vue variable so the UI updates to the variable and vice versa -->
+     <!-- works for inputs, selects, textareas, checkboxes -->
   </template>
 
 <script setup>

@@ -10,11 +10,14 @@
 
     <!-- v-model -> is used to connect input to  vue variable so the UI updates to the variable and vice versa -->
      <!-- works for inputs, selects, textareas, checkboxes -->
+      <input v-model="name" placeholder="Type your name here ..." />
+      <p>Hello {{ name }}</p>
   </template>
 
 <script setup>
    import { ref } from 'vue';   
 
-   const imageUrl = ref('https://placekitten.com/200/200');
-   const textClass = ref('text-blue-500 font-bold');
+  //  const imageUrl = ref('https://placekitten.com/200/200');
+  //  const textClass = ref('text-blue-500 font-bold');
+  const name = ref('');
 </script>

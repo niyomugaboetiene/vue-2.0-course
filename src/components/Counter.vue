@@ -1,9 +1,11 @@
 <template>
    <div class="ms-[700px] mt-[100px] p-7 shadow-2xl w-[15%] rounded-xl">
-    <p class="text-center me-[30px]">{{ count }}</p>
-     <button @click="increment">Increment</button>
-     <button @click="reset">Reset</button>
-     <button @click="decrement">Decrement</button>
+    <p class="text-center me-[30px] font-bold">{{ count }}</p>
+    <div class="flex space-x-6">
+        <button @click="increment">Increment</button>
+        <button @click="reset">Reset</button>
+        <button @click="decrement">Decrement</button>
+    </div>
    </div>     
 </template>
 

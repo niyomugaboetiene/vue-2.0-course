@@ -7,6 +7,8 @@
         <img :src="imageUrl" alt="Dynamic image" />
         <p :class="textClass">Hello Vue!</p>
     </div>
+
+    <!-- v-model -> is used to connect input to  vue variable so the UI updates to the variable and vice versa -->
   </template>
 
 <script setup>

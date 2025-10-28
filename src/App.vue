@@ -6,11 +6,13 @@
   </div> -->
 
   <div>
-    <Interpolation />
+    <!-- <Interpolation /> -->
+     <Counter />
   </div>
 </template>
 
 <script setup>
- import HelloWorld from './components/HelloWorld.vue';
+ import Counter from './components/Counter.vue';
+import HelloWorld from './components/HelloWorld.vue';
 import Interpolation from './components/Interpolation.vue';
 </script>

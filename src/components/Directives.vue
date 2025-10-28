@@ -8,4 +8,10 @@
         <p :class="textClass">Hello Vue!</p>
     </div>
   </template>
-  
+
+<script setup>
+   import { ref } from 'vue';   
+
+   const imageUrl = ref('https://placekitten.com/200/200');
+   const textClass = ref('text-blue-500 font-bold');
+</script>

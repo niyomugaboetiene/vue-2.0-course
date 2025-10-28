@@ -7,5 +7,7 @@
 
  <script setup>
      import { ref } from 'vue';
+     
+     const message = ref("Hello vue 3!");
 
 </script>

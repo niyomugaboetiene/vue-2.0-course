@@ -14,6 +14,8 @@
       <p>Hello {{ name }}</p>
 
       <!-- v-if/v-else return the element if only the condition is true -->
+       <!-- v-else if element is false -->
+        
   </template>
 
 <script setup>

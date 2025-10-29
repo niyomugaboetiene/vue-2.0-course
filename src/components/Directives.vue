@@ -15,7 +15,8 @@
 
       <!-- v-if/v-else return the element if only the condition is true -->
        <!-- v-else if element is false -->
-        
+        <p v-if="showGreeting">Hello Vue</p>
+       <p v-else>Good Bye</p>
   </template>
 
 <script setup>

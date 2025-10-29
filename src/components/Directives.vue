@@ -15,6 +15,7 @@
 
       <!-- v-if/v-else return the element if only the condition is true -->
        <!-- v-else if element is false -->
+        <button @click="toggle">Toggle</button>
         <p v-if="showGreeting">Hello Vue</p>
        <p v-else>Good Bye</p>
   </template>
@@ -24,5 +25,9 @@
 
   //  const imageUrl = ref('https://placekitten.com/200/200');
   //  const textClass = ref('text-blue-500 font-bold');
+  const showGreeting = ref(true);
+  function toggle() {
+    showGreeting.value = !showGreeting.value
+  }
   const name = ref('');
 </script>

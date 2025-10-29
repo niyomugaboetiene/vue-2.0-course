@@ -23,6 +23,12 @@
         <p v-if="count === 3">This count is exactly</p>
         <p v-if="count < 3">{{ count }} is too small</p>
         <button @click="increaseCOunt">Increase COunt</button>
+
+
+        <!-- v-for is used to loop over list dynamically -->
+         <li v-for="(fruit, index ) in fruits" key="index">
+          {{  index + 1 }} . {{ fruit }}
+         </li>
   </template>
 
 <script setup>
@@ -32,6 +38,7 @@
   //  const textClass = ref('text-blue-500 font-bold');
   const showGreeting = ref(true);
   const count = ref(1);
+  const fruits = ref(["Apple", "Orange", "Banana"]);
 
   function increaseCOunt() {
     count.value ++;

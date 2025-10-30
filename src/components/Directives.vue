@@ -33,8 +33,8 @@
          <!-- v-on is used to DOM events ataching an event listener to an element -->
          <!-- v-on:eventName="methoodName" --> <br>
          <button @click="sayHello">Click Me</button> <br>
-         <div class="ms-3 shadow-lg w-[200px] mt-4 p-4 rounded-lg">
-             <button @click="counted ++">You clicked {{ counted }} timees</button>
+         <div class="ms-3 shadow-xl w-[200px] mt-4 p-4 rounded-lg">
+             <button @click="counted ++" class="bg-blue-300 px-2 text-white py-3 rounded-lg hover:bg-blue-400 transition-colors">You clicked {{ counted }} times</button>
          </div>
   </template>
 

@@ -32,7 +32,10 @@
 
          <!-- v-on is used to DOM events ataching an event listener to an element -->
          <!-- v-on:eventName="methoodName" --> <br>
-         <button @click="sayHello">Click Me</button>
+         <button @click="sayHello">Click Me</button> <br>
+         <div class="ms-3 shadow-lg w-[200px] mt-4 p-4 rounded-lg">
+             <button @click="counted ++">You clicked {{ counted }} timees</button>
+         </div>
   </template>
 
 <script setup>
@@ -54,4 +57,6 @@
   function sayHello() {
     alert("Hello vue");
   }
+  
+  const counted = ref(0);
 </script>

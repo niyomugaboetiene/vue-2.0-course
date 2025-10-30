@@ -34,7 +34,7 @@
          <!-- v-on:eventName="methoodName" --> <br>
          <button @click="sayHello">Click Me</button> <br>
          <div class="ms-3 shadow-xl w-[200px] mt-4 p-4 rounded-lg">
-             <button @click="counted ++" class="bg-blue-300 px-2 text-white py-3 rounded-lg hover:bg-blue-400 transition-colors">You clicked {{ counted }} times</button>
+             <button @click="counted ++" class="bg-blue-300 px-2 text-white py-3 rounded-lg hover:bg-blue-400 transition-colors">You clicked <span class="font-bold text-black">{{ counted }}</span> times</button>
          </div>
   </template>
 

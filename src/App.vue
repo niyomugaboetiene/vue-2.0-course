@@ -8,13 +8,15 @@
   <div>
     <!-- <Interpolation /> -->
      <!-- <Counter /> -->
-     <Directives />
+     <!-- <Directives /> -->
+      <Events />
   </div>
 </template>
 
 <script setup>
      import Counter from './components/Counter.vue';
      import Directives from './components/Directives.vue';
+import Events from './components/Events.vue';
      import HelloWorld from './components/HelloWorld.vue';
      import Interpolation from './components/Interpolation.vue';
 </script>

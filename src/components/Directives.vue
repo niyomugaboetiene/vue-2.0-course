@@ -43,10 +43,6 @@
 <script setup>
    import { ref } from 'vue';   
 
-   function onInput(event) {
-    console.log('Input value value:', event.target.value)
-   }
-
    function greet(name) {
     alert(`Hello ${name}`)
    }

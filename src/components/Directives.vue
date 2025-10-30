@@ -38,10 +38,15 @@
 
              <button @click="greet('Etiene')">Greet Me</button>
          </div>
+         <!-- using event Access the event object -->
+          <input @click="onInput" placeholder="Type something" />
   </template>
 
 <script setup>
    import { ref } from 'vue';   
+   function onInput(event) {
+    console.log('Input value value:', event.target.value)
+   }
 
    function greet(name) {
     alert(`Hello ${name}`)

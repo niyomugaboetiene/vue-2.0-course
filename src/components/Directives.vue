@@ -31,7 +31,7 @@
          </li>
 
          <!-- v-on is used to DOM events ataching an event listener to an element -->
-         <!-- v-on:eventName="methoodName" -->
+         <!-- v-on:eventName="methoodName" --> <br>
          <button @click="sayHello">Click Me</button>
   </template>
 
@@ -40,15 +40,18 @@
 
   //  const imageUrl = ref('https://placekitten.com/200/200');
   //  const textClass = ref('text-blue-500 font-bold');
-  const showGreeting = ref(true);
-  const count = ref(1);
-  const fruits = ref(["Apple", "Orange", "Banana"]);
+  // const showGreeting = ref(true);
+  // const count = ref(1);
+  // const fruits = ref(["Apple", "Orange", "Banana"]);
 
-  function increaseCOunt() {
-    count.value ++;
+  // function increaseCOunt() {
+  //   count.value ++;
+  // }
+  // function toggle() {
+  //   showGreeting.value = !showGreeting.value
+  // }
+  // const name = ref('');
+  function sayHello() {
+    alert("Hello vue");
   }
-  function toggle() {
-    showGreeting.value = !showGreeting.value
-  }
-  const name = ref('');
 </script>

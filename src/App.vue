@@ -6,9 +6,9 @@
   </div> -->
 
   <div>
-    <Interpolation />
+    <!-- <Interpolation /> -->
      <!-- <Counter /> -->
-     <!-- <Directives /> -->
+     <Directives />
   </div>
 </template>
 

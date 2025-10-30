@@ -29,6 +29,10 @@
          <li v-for="(fruit, index ) in fruits" key="index">
           {{  index + 1 }} . {{ fruit }}
          </li>
+
+         <!-- v-on is used to DOM events ataching an event listener to an element -->
+         <!-- v-on:eventName="methoodName" -->
+         <button @click="sayHello">Click Me</button>
   </template>
 
 <script setup>

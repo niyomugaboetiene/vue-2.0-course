@@ -9,14 +9,16 @@
     <!-- <Interpolation /> -->
      <!-- <Counter /> -->
      <!-- <Directives /> -->
-      <Events />
+      <!-- <Events /> -->
+       <Reminder />
   </div>
 </template>
 
 <script setup>
      import Counter from './components/Counter.vue';
      import Directives from './components/Directives.vue';
-import Events from './components/Events.vue';
+     import Events from './components/Events.vue';
      import HelloWorld from './components/HelloWorld.vue';
      import Interpolation from './components/Interpolation.vue';
+     import Reminder from './components/Reminder.vue';
 </script>

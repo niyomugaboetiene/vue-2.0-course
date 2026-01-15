@@ -22,7 +22,7 @@
         <p v-if="count > 5">This {{ count }} is too big</p>
         <p v-if="count === 3">This count is exactly</p>
         <p v-if="count < 3">{{ count }} is too small</p>
-        <button @click="increaseCOunt">Increase COunt</button>
+        <button @click="increaseCOunt">Increase Count</button>
 
 
         <!-- v-for is used to loop over list dynamically -->

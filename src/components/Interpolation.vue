@@ -5,6 +5,7 @@
         <p v-for="(fruit, index) in fruits">
             {{ index + 1 }} . {{ fruit }}
         </p>
+
     </div>
  </template>
 

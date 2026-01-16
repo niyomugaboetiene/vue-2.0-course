@@ -10,7 +10,8 @@
      <!-- <Counter /> -->
      <!-- <Directives /> -->
       <!-- <Events /> -->
-       <Reminder />
+       <!-- <Reminder /> -->
+        <PropsParent />
   </div>
 </template>
 
@@ -21,4 +22,6 @@
      import HelloWorld from './components/HelloWorld.vue';
      import Interpolation from './components/Interpolation.vue';
      import Reminder from './components/Reminder.vue';
+import PropsParent from './components/propsParent.vue';
+     import propsParent from './components/propsParent.vue';
 </script>

@@ -4,6 +4,7 @@
 
 <script>
     import DynamicChild from './DynamicChild.vue';
+    
     export default {
         components: { DynamicChild },
         data() {

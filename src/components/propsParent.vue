@@ -1,13 +1,8 @@
-<template>
-    <PropsChild name="Etiene" />
-</template>
+<script setup lang="js">
+import PropsChild from './propsChild.vue';
 
-<script>
-    import PropsChild from './propsChild.vue';
-
-    export default {
-       components: {
-         PropsChild
-       }
-    }
 </script>
+
+<template>
+  <PropsChild name="Etiene"/>
+</template>

@@ -4,13 +4,13 @@
 
 <script>
     import DynamicChild from './DynamicChild.vue';
-    
+
     export default {
         components: { DynamicChild },
         data() {
             return {
                 skills: ["Vue", "React", "Javascript"],
-                users: ["Anna", "Alice", "Emmy"]
+                users: {"name": "Anna", "age": 20}
             }
         }
     }

@@ -11,7 +11,8 @@
      <!-- <Directives /> -->
       <!-- <Events /> -->
        <!-- <Reminder /> -->
-        <PropsParent />
+        <!-- <PropsParent /> -->
+         <DynamicParent />
   </div>
 </template>
 
@@ -23,4 +24,5 @@
      import Interpolation from './components/Interpolation.vue';
      import Reminder from './components/Reminder.vue';
      import PropsParent from './components/Props/propsParent.vue';
+     import DynamicParent from './components/Props/DynamicParent.vue';
 </script>

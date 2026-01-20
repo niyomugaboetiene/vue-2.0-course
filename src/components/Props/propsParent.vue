@@ -7,11 +7,12 @@ import PropsChild from './Props/propsChild.vue';
 <template>
   <PropsChild name="Etiene"/>
 </template> -->
+
 <template>
-  <PropsChild :name="username"/>
+  <PropsChild :name="username" />
 </template>
 
-<script lang="js">
+<script>
 import PropsChild from './propsChild.vue';
 
 export default {
